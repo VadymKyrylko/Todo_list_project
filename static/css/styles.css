@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    background-color: #f8f9fa;
+}
+
+.sidebar-nav {
+    padding-top: 20px;
+}
+
+.task-item {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-item h3 {
+    margin-top: 0;
+}
+
+.task-item p {
+    margin-bottom: 5px;
+}
+
+.task-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 10px;
+}
